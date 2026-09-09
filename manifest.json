@@ -1,47 +1,923 @@
 {
-  "id": "re-3arabi-nuvio",
-  "name": "re-3arabi Complete Arabic Collection",
-  "description": "Full port of all 38 Arabic sources from re-3arabi Cloudstream repository for Nuvio.",
+  "id": "re-3arabi-nuvio-plugin",
+  "name": "Re-3arabi Providers",
   "version": "1.0.0",
-  "author": "Abodabodd",
+  "description": "Arabic Streaming Providers for Nuvio",
+  "author": "Zer0cipher",
   "providers": [
-    { "id": "3isk", "name": "3isk", "description": "Turkish series dubbed and subtitled", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/3isk.js", "enabled": true },
-    { "id": "aflaam", "name": "Aflaam", "description": "Arabic and international movies", "version": "1.0.0", "supportedTypes": ["movie"], "filename": "providers/aflaam.js", "enabled": true },
-    { "id": "aia2tv", "name": "Aia2tv", "description": "Arabic and Asian drama shows", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/aia2tv.js", "enabled": true },
-    { "id": "akwam", "name": "Akwam", "description": "Arabic movies, TV shows, and series", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/akwam.js", "enabled": true },
-    { "id": "alooytv", "name": "Alooytv", "description": "Khaleeji and Arabic TV shows", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/alooytv.js", "enabled": true },
-    { "id": "anim3rb", "name": "Anim3rb", "description": "Arabic subtitled anime episodes", "version": "1.0.0", "supportedTypes": ["tv", "movie"], "filename": "providers/anim3rb.js", "enabled": true },
-    { "id": "anime-phoenix", "name": "Anime-Phoenix", "description": "Anime streaming source", "version": "1.0.0", "supportedTypes": ["tv", "movie"], "filename": "providers/anime-phoenix.js", "enabled": true },
-    { "id": "anime4up", "name": "Anime4up", "description": "Anime movies and series in Arabic", "version": "1.0.0", "supportedTypes": ["tv", "movie"], "filename": "providers/anime4up.js", "enabled": true },
-    { "id": "animerco", "name": "Animerco", "description": "Anime streaming and downloads", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/animerco.js", "enabled": true },
-    { "id": "animewitcher", "name": "Animewitcher", "description": "Subtitled anime collection", "version": "1.0.0", "supportedTypes": ["tv", "movie"], "filename": "providers/animewitcher.js", "enabled": true },
-    { "id": "bristege", "name": "Bristege", "description": "Arabic, Turkish, and Indian series", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/bristege.js", "enabled": true },
-    { "id": "cee", "name": "Cee", "description": "Arabic entertainment stream", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/cee.js", "enabled": true },
-    { "id": "cimaclub", "name": "CimaClub", "description": "Movies and TV series", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/cimaclub.js", "enabled": true },
-    { "id": "cimalight", "name": "Cimalight", "description": "Arabic cinema stream", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/cimalight.js", "enabled": true },
-    { "id": "cimatn", "name": "Cimatn", "description": "North African and Arabic streams", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/cimatn.js", "enabled": true },
-    { "id": "cinemana", "name": "Cinemana", "description": "Cinemana platform mirror", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/cinemana.js", "enabled": true },
-    { "id": "dima-toon", "name": "Dima Toon", "description": "Cartoons and dubbed anime", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/dima-toon.js", "enabled": true },
-    { "id": "egydead", "name": "Egydead", "description": "Movies, horror, and foreign series", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/egydead.js", "enabled": true },
-    { "id": "elif", "name": "Elif", "description": "Turkish and oriental dramas", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/elif.js", "enabled": true },
-    { "id": "eseek", "name": "Eseek", "description": "Arabic TV series catalog", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/eseek.js", "enabled": true },
-    { "id": "faselhd", "name": "FaselHD", "description": "HD Movies and TV series", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/faselhd.js", "enabled": true },
-    { "id": "krmzy", "name": "Krmzy", "description": "Turkish series with Arabic subtitles", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/krmzy.js", "enabled": true },
-    { "id": "lodynet", "name": "Lodynet", "description": "Indian and Asian movies and series", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/lodynet.js", "enabled": true },
-    { "id": "mycima", "name": "MyCima", "description": "Arabic and foreign movies and series", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/mycima.js", "enabled": true },
-    { "id": "replaymatch", "name": "Replaymatch", "description": "Football match replays", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/replaymatch.js", "enabled": true },
-    { "id": "shahid4u", "name": "Shahid4u", "description": "Arabic and translated shows", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/shahid4u.js", "enabled": true },
-    { "id": "shahidwbas", "name": "Shahidwbas", "description": "Arabic movies and dramas", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/shahidwbas.js", "enabled": true },
-    { "id": "syria-live", "name": "Syria Live", "description": "Arabic live TV channels", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/syria-live.js", "enabled": true },
-    { "id": "topcinema", "name": "Topcinema", "description": "High resolution Arabic movies", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/topcinema.js", "enabled": true },
-    { "id": "tuktukcima", "name": "TukTukcima", "description": "Arabic and foreign releases", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/tuktukcima.js", "enabled": true },
-    { "id": "tuniflexblog", "name": "TuniflexBlog", "description": "Tunisian and Maghrebi entertainment", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/tuniflexblog.js", "enabled": true },
-    { "id": "tuniflix", "name": "Tuniflix", "description": "Tunisian movies and shows", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/tuniflix.js", "enabled": true },
-    { "id": "tvgarden", "name": "TVgarden", "description": "Live Arabic channels", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/tvgarden.js", "enabled": true },
-    { "id": "viu", "name": "Viu Mirror", "description": "Arabic and Asian originals", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/viu.js", "enabled": true },
-    { "id": "wecima", "name": "WeCima", "description": "WeCima official scraper", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/wecima.js", "enabled": true },
-    { "id": "witanime", "name": "Witanime", "description": "Popular anime streaming site", "version": "1.0.0", "supportedTypes": ["tv", "movie"], "filename": "providers/witanime.js", "enabled": true },
-    { "id": "yacintv", "name": "YacinTV", "description": "Live sports and Arabic channels", "version": "1.0.0", "supportedTypes": ["tv"], "filename": "providers/yacintv.js", "enabled": true },
-    { "id": "youtube", "name": "Youtube Arabic", "description": "Arabic movie clips and shows", "version": "1.0.0", "supportedTypes": ["movie", "tv"], "filename": "providers/youtube.js", "enabled": true }
+    {
+      "id": "3isk",
+      "name": "3isk",
+      "description": "3isk streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/3isk.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "aflaam",
+      "name": "Aflaam",
+      "description": "aflaam streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/aflaam.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "aia2tv",
+      "name": "Aia2tv",
+      "description": "aia2tv streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/aia2tv.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "akwam",
+      "name": "Akwam",
+      "description": "akwam streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/akwam.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "alooytv",
+      "name": "Alooytv",
+      "description": "alooytv streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/alooytv.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "anim3rb",
+      "name": "Anim3rb",
+      "description": "anim3rb streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/anim3rb.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "anime-phoenix",
+      "name": "Anime-phoenix",
+      "description": "anime-phoenix streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/anime-phoenix.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "anime4up",
+      "name": "Anime4up",
+      "description": "anime4up streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/anime4up.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "animerco",
+      "name": "Animerco",
+      "description": "animerco streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/animerco.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "animewitcher",
+      "name": "Animewitcher",
+      "description": "animewitcher streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/animewitcher.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bristege",
+      "name": "Bristege",
+      "description": "bristege streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/bristege.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cee",
+      "name": "Cee",
+      "description": "cee streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/cee.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cimaclub",
+      "name": "Cimaclub",
+      "description": "cimaclub streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/cimaclub.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cimalight",
+      "name": "Cimalight",
+      "description": "cimalight streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/cimalight.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cimatn",
+      "name": "Cimatn",
+      "description": "cimatn streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/cimatn.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cinemana",
+      "name": "Cinemana",
+      "description": "cinemana streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/cinemana.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dima-toon",
+      "name": "Dima-toon",
+      "description": "dima-toon streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/dima-toon.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "egydead",
+      "name": "Egydead",
+      "description": "egydead streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/egydead.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "elif",
+      "name": "Elif",
+      "description": "elif streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/elif.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "eseek",
+      "name": "Eseek",
+      "description": "eseek streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/eseek.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "faselhd",
+      "name": "Faselhd",
+      "description": "faselhd streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/faselhd.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "krmzy",
+      "name": "Krmzy",
+      "description": "krmzy streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/krmzy.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "lodynet",
+      "name": "Lodynet",
+      "description": "lodynet streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/lodynet.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mycima",
+      "name": "Mycima",
+      "description": "mycima streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/mycima.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "replaymatch",
+      "name": "Replaymatch",
+      "description": "replaymatch streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/replaymatch.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "shahid4u",
+      "name": "Shahid4u",
+      "description": "shahid4u streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/shahid4u.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "shahidwbas",
+      "name": "Shahidwbas",
+      "description": "shahidwbas streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/shahidwbas.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "syria-live",
+      "name": "Syria-live",
+      "description": "syria-live streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/syria-live.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "topcinema",
+      "name": "Topcinema",
+      "description": "topcinema streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/topcinema.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tuktukcima",
+      "name": "Tuktukcima",
+      "description": "tuktukcima streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/tuktukcima.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tuniflexblog",
+      "name": "Tuniflexblog",
+      "description": "tuniflexblog streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/tuniflexblog.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tuniflix",
+      "name": "Tuniflix",
+      "description": "tuniflix streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/tuniflix.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tvgarden",
+      "name": "Tvgarden",
+      "description": "tvgarden streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/tvgarden.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "viu",
+      "name": "Viu",
+      "description": "viu streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/viu.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "wecima",
+      "name": "Wecima",
+      "description": "wecima streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/wecima.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "witanime",
+      "name": "Witanime",
+      "description": "witanime streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/witanime.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "yacintv",
+      "name": "Yacintv",
+      "description": "yacintv streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/yacintv.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "youtube",
+      "name": "Youtube",
+      "description": "youtube streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/youtube.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    }
+  ],
+  "scrapers": [
+    {
+      "id": "3isk",
+      "name": "3isk",
+      "description": "3isk streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/3isk.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "aflaam",
+      "name": "Aflaam",
+      "description": "aflaam streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/aflaam.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "aia2tv",
+      "name": "Aia2tv",
+      "description": "aia2tv streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/aia2tv.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "akwam",
+      "name": "Akwam",
+      "description": "akwam streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/akwam.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "alooytv",
+      "name": "Alooytv",
+      "description": "alooytv streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/alooytv.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "anim3rb",
+      "name": "Anim3rb",
+      "description": "anim3rb streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/anim3rb.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "anime-phoenix",
+      "name": "Anime-phoenix",
+      "description": "anime-phoenix streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/anime-phoenix.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "anime4up",
+      "name": "Anime4up",
+      "description": "anime4up streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/anime4up.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "animerco",
+      "name": "Animerco",
+      "description": "animerco streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/animerco.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "animewitcher",
+      "name": "Animewitcher",
+      "description": "animewitcher streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/animewitcher.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bristege",
+      "name": "Bristege",
+      "description": "bristege streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/bristege.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cee",
+      "name": "Cee",
+      "description": "cee streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/cee.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cimaclub",
+      "name": "Cimaclub",
+      "description": "cimaclub streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/cimaclub.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cimalight",
+      "name": "Cimalight",
+      "description": "cimalight streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/cimalight.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cimatn",
+      "name": "Cimatn",
+      "description": "cimatn streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/cimatn.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cinemana",
+      "name": "Cinemana",
+      "description": "cinemana streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/cinemana.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dima-toon",
+      "name": "Dima-toon",
+      "description": "dima-toon streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/dima-toon.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "egydead",
+      "name": "Egydead",
+      "description": "egydead streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/egydead.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "elif",
+      "name": "Elif",
+      "description": "elif streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/elif.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "eseek",
+      "name": "Eseek",
+      "description": "eseek streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/eseek.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "faselhd",
+      "name": "Faselhd",
+      "description": "faselhd streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/faselhd.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "krmzy",
+      "name": "Krmzy",
+      "description": "krmzy streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/krmzy.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "lodynet",
+      "name": "Lodynet",
+      "description": "lodynet streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/lodynet.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mycima",
+      "name": "Mycima",
+      "description": "mycima streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/mycima.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "replaymatch",
+      "name": "Replaymatch",
+      "description": "replaymatch streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/replaymatch.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "shahid4u",
+      "name": "Shahid4u",
+      "description": "shahid4u streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/shahid4u.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "shahidwbas",
+      "name": "Shahidwbas",
+      "description": "shahidwbas streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/shahidwbas.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "syria-live",
+      "name": "Syria-live",
+      "description": "syria-live streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/syria-live.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "topcinema",
+      "name": "Topcinema",
+      "description": "topcinema streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/topcinema.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tuktukcima",
+      "name": "Tuktukcima",
+      "description": "tuktukcima streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/tuktukcima.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tuniflexblog",
+      "name": "Tuniflexblog",
+      "description": "tuniflexblog streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/tuniflexblog.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tuniflix",
+      "name": "Tuniflix",
+      "description": "tuniflix streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/tuniflix.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tvgarden",
+      "name": "Tvgarden",
+      "description": "tvgarden streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/tvgarden.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "viu",
+      "name": "Viu",
+      "description": "viu streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/viu.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "wecima",
+      "name": "Wecima",
+      "description": "wecima streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/wecima.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "witanime",
+      "name": "Witanime",
+      "description": "witanime streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/witanime.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "yacintv",
+      "name": "Yacintv",
+      "description": "yacintv streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/yacintv.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "youtube",
+      "name": "Youtube",
+      "description": "youtube streaming scraper",
+      "version": "1.0.0",
+      "filename": "providers/youtube.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    }
   ]
 }
