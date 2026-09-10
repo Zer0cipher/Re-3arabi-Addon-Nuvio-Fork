@@ -1,12 +1,10 @@
 {
-  "name": "re-3arabi-nuvio-providers",
+  "name": "re-3arabi-nuvio",
   "version": "1.0.0",
-  "description": "Arabic streaming scrapers bundled for Nuvio",
-  "main": "build.js",
+  "type": "module",
   "scripts": {
-    "build": "node build.js"
-  },
-  "devDependencies": {
-    "esbuild": "^0.21.0"
+    "resolve-providers": "node scripts/resolve-providers.mjs",
+    "prebuild": "npm run resolve-providers",
+    "build": "next build"
   }
 }

@@ -1,8 +1,10 @@
 var shared = require('./_shared.js');
+var BASE_URL = 'https://www.youtube.com/';
+
 function getStreams(tmdbId, mediaType) {
   return shared.fetchTitle(tmdbId, mediaType)
     .then(function(title) {
-      return fetch("https://www.youtube.com/results?search_query=" + encodeURIComponent(title + " كامل"), {
+      return fetch(`${BASE_URL}/results?search_query=${encodeURIComponent(title + " كامل")}`, {
         headers: { "User-Agent": shared.UA }
       });
     })
@@ -18,7 +20,7 @@ function getStreams(tmdbId, mediaType) {
           streams.push({
             name: "YouTube Arabic",
             title: "Full Video Stream",
-            url: "https://www.youtube.com/watch?v=" + videoId,
+            url: `${BASE_URL}/watch?v=${videoId}`,
             quality: "720p",
             headers: { "User-Agent": shared.UA }
           });
@@ -28,4 +30,5 @@ function getStreams(tmdbId, mediaType) {
     })
     .catch(function() { return []; });
 }
+
 module.exports = { getStreams: getStreams };

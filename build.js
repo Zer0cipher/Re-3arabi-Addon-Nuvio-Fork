@@ -5,7 +5,6 @@ const path = require('path');
 const srcDir = path.join(__dirname, 'src', 'providers');
 const outDir = path.join(__dirname, 'providers');
 
-// Determine where the source files are located
 let searchDir = fs.existsSync(srcDir) && fs.readdirSync(srcDir).some(f => f.endsWith('.js') && f !== '_shared.js') 
   ? srcDir 
   : outDir;
@@ -18,31 +17,26 @@ if (!fs.existsSync(searchDir)) {
 const entryFiles = fs.readdirSync(searchDir)
   .filter(file => file.endsWith('.js') && file !== '_shared.js');
 
-console.log(`Found ${entryFiles.length} scrapers in ${searchDir}`);
-
-if (entryFiles.length === 0) {
-  console.error("❌ Error: No .js scraper files found!");
-  process.exit(1);
-}
-
-// 1. Bundle code if files are in src/providers
 if (searchDir === srcDir) {
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   const entryPoints = entryFiles.map(file => path.join(srcDir, file));
 
+  // Transpile async/await into Promise generator logic for Hermes
   esbuild.buildSync({
     entryPoints,
     bundle: true,
     minify: false,
     format: 'cjs',
-    target: 'es2020',
+    target: 'es2015',
+    supported: {
+      'async-await': false // Replaces async/await keywords with standard Promises
+    },
     platform: 'neutral',
     outdir: outDir,
   });
-  console.log(`✅ Bundled ${entryFiles.length} files into /providers/`);
+  console.log(`✅ Transpiled and bundled ${entryFiles.length} scrapers for Hermes compatibility.`);
 }
 
-// 2. Generate Nuvio manifest format
 const scrapersList = entryFiles.map(file => {
   const providerId = path.basename(file, '.js');
   return {

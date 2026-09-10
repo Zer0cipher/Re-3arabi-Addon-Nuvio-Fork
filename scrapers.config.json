@@ -1,0 +1,232 @@
+{
+  "providers": {
+    "3isk": {
+      "name": "قصة عشق",
+      "baseUrl": "https://aa.3ick.net",
+      "fallbacks": ["https://3ick.net", "https://3isk.biz", "https://3isk.tv"],
+      "keywords": ["3isk", "3ick", "قصة عشق"]
+    },
+    "aflaam": {
+      "name": "Aflaam",
+      "baseUrl": "https://aflaam.com",
+      "fallbacks": ["https://aflaam.net", "https://aflaam.co"],
+      "keywords": ["aflaam", "افلام"]
+    },
+    "aia2tv": {
+      "name": "Aia2TV",
+      "baseUrl": "https://aia2tv.com",
+      "fallbacks": ["https://aia2tv.net", "https://aia2tv.org"],
+      "keywords": ["aia2tv", "اييا"]
+    },
+    "akwam": {
+      "name": "Akwam",
+      "baseUrl": "https://akwam.ss",
+      "fallbacks": ["https://akwam.to", "https://akwam.im", "https://akwam.site"],
+      "keywords": ["akwam", "أكوام", "اكوام"]
+    },
+    "alooytv": {
+      "name": "AlooyTV",
+      "baseUrl": "https://fitnur.com/alooytv",
+      "fallbacks": ["https://alooytv.com", "https://alooytv.net"],
+      "keywords": ["alooytv", "الوَي"]
+    },
+    "anim3rb": {
+      "name": "Anim3rb",
+      "baseUrl": "https://anim3rb.com",
+      "fallbacks": ["https://anim3rb.net", "https://anim3rb.org"],
+      "keywords": ["anim3rb", "انمي عرب"]
+    },
+    "anime-phoenix": {
+      "name": "Anime Phoenix",
+      "baseUrl": "https://anime-phoenix.com",
+      "fallbacks": ["https://anime-phoenix.net"],
+      "keywords": ["anime", "phoenix", "فينيكس"]
+    },
+    "anime4up": {
+      "name": "Anime4Up",
+      "baseUrl": "https://anime4up.bond",
+      "fallbacks": ["https://anime4up.tv", "https://w1.anime4up.org", "https://anime4up.com"],
+      "keywords": ["anime4up", "انمي فور اب"]
+    },
+    "animerco": {
+      "name": "Animerco",
+      "baseUrl": "https://det.animerco.org",
+      "fallbacks": ["https://animerco.org", "https://animerco.com"],
+      "keywords": ["animerco", "انميركو"]
+    },
+    "animewitcher": {
+      "name": "Anime Witcher",
+      "baseUrl": "https://www.animewitcher.com",
+      "fallbacks": ["https://animewitcher.net"],
+      "keywords": ["animewitcher", "انمي ويتشر"]
+    },
+    "bristege": {
+      "name": "Brstej",
+      "baseUrl": "https://uo.brstej.com/home03",
+      "fallbacks": ["https://brstej.com", "https://brstej.org"],
+      "keywords": ["brstej", "برستيج"]
+    },
+    "cee": {
+      "name": "Cee",
+      "baseUrl": "https://cee.co",
+      "fallbacks": ["https://cee.tv"],
+      "keywords": ["cee"]
+    },
+    "cimaclub": {
+      "name": "CimaClub",
+      "baseUrl": "https://cimaclub.com",
+      "fallbacks": ["https://cimaclub.net", "https://cimaclub.org"],
+      "keywords": ["cimaclub", "سيما كلوب"]
+    },
+    "cimalight": {
+      "name": "CimaLight",
+      "baseUrl": "https://cimalight.com",
+      "fallbacks": ["https://cimalight.net"],
+      "keywords": ["cimalight", "سيما لايت"]
+    },
+    "cimatn": {
+      "name": "CimaTN",
+      "baseUrl": "https://www.cimatn.com",
+      "fallbacks": ["https://cimatn.net"],
+      "keywords": ["cimatn", "سيما"]
+    },
+    "cinemana": {
+      "name": "Cinemana",
+      "baseUrl": "https://cinemana.shabakaty.com",
+      "fallbacks": ["https://cinemana.app"],
+      "keywords": ["cinemana", "سينمانا"]
+    },
+    "dima-toon": {
+      "name": "DimaToon",
+      "baseUrl": "https://dimatoon.com",
+      "fallbacks": ["https://dimatoon.net"],
+      "keywords": ["dimatoon", "ديما تون"]
+    },
+    "egydead": {
+      "name": "EgyDead",
+      "baseUrl": "https://egydead.live",
+      "fallbacks": ["https://tv10.egydead.live", "https://egydead.com", "https://egydead.pro"],
+      "keywords": ["egydead", "ايجي ديد"]
+    },
+    "elif": {
+      "name": "Elif",
+      "baseUrl": "https://elif.com",
+      "fallbacks": ["https://elif.tv"],
+      "keywords": ["elif", "اليف"]
+    },
+    "eseek": {
+      "name": "Eseek",
+      "baseUrl": "https://eseek.org",
+      "fallbacks": ["https://eseek.tv"],
+      "keywords": ["eseek", "ايسيك"]
+    },
+    "faselhd": {
+      "name": "FaselHD",
+      "baseUrl": "https://www.fasel-hd.co",
+      "fallbacks": ["https://fasel-hd.cam", "https://faselhd.net", "https://faselhd.com"],
+      "keywords": ["fasel", "فاصل"]
+    },
+    "krmzy": {
+      "name": "Krmzy",
+      "baseUrl": "https://krmzy.org",
+      "fallbacks": ["https://krmzy.com"],
+      "keywords": ["krmzy", "قرمزي"]
+    },
+    "lodynet": {
+      "name": "LodyNet",
+      "baseUrl": "https://lodynet.pro",
+      "fallbacks": ["https://lodynet.com", "https://lodynet.net"],
+      "keywords": ["lodynet", "لودي نت"]
+    },
+    "mycima": {
+      "name": "MyCima",
+      "baseUrl": "https://my-cima.net",
+      "fallbacks": ["https://wecima.sarl", "https://wecima.mobi"],
+      "keywords": ["mycima", "ماي سيما"]
+    },
+    "replaymatch": {
+      "name": "ReplayMatch",
+      "baseUrl": "https://replaymatch.com",
+      "fallbacks": ["https://replaymatch.net"],
+      "keywords": ["replaymatch", "ريبلاي"]
+    },
+    "shahid4u": {
+      "name": "Shahid4u",
+      "baseUrl": "https://shahid4u.vip",
+      "fallbacks": ["https://shahed4u.me", "https://shahid4u.run", "https://shaahid4u.net"],
+      "keywords": ["shahid4u", "شاهد فور يو"]
+    },
+    "shahidwbas": {
+      "name": "ShahidWbas",
+      "baseUrl": "https://shahidwbas.com",
+      "fallbacks": ["https://shahidwbas.net"],
+      "keywords": ["shahidwbas", "شاهد وبس"]
+    },
+    "syria-live": {
+      "name": "Syria Live",
+      "baseUrl": "https://syria-live.com/home/",
+      "fallbacks": ["https://syria-live.net"],
+      "keywords": ["syria", "سوريا لايف"]
+    },
+    "topcinema": {
+      "name": "TopCinema",
+      "baseUrl": "https://topcinema.top",
+      "fallbacks": ["https://topcinema.site", "https://topcinema.cam", "https://topcinema.net"],
+      "keywords": ["topcinema", "تاپ سينما"]
+    },
+    "tuktukcima": {
+      "name": "TukTukCima",
+      "baseUrl": "https://tuktukhd.com",
+      "fallbacks": ["https://tuktukcima.com"],
+      "keywords": ["tuktuk", "توك توك"]
+    },
+    "tuniflexblog": {
+      "name": "TuniFlexBlog",
+      "baseUrl": "https://tuniflexblog.com",
+      "fallbacks": ["https://tuniflex.com"],
+      "keywords": ["tuniflex"]
+    },
+    "tuniflix": {
+      "name": "TuniFlix",
+      "baseUrl": "https://tuniflix.com",
+      "fallbacks": ["https://tuniflix.net"],
+      "keywords": ["tuniflix"]
+    },
+    "tvgarden": {
+      "name": "TVGarden",
+      "baseUrl": "https://tvgarden.com",
+      "fallbacks": ["https://tvgarden.net"],
+      "keywords": ["tvgarden"]
+    },
+    "viu": {
+      "name": "Viu",
+      "baseUrl": "https://watch.viu.com/ott/eg",
+      "fallbacks": ["https://viu.com"],
+      "keywords": ["viu"]
+    },
+    "wecima": {
+      "name": "WeCima",
+      "baseUrl": "https://wecima.sarl",
+      "fallbacks": ["https://my-cima.net", "https://wecima.mobi", "https://wecima.tube"],
+      "keywords": ["wecima", "وي سيما"]
+    },
+    "witanime": {
+      "name": "WitAnime",
+      "baseUrl": "https://witanime.com",
+      "fallbacks": ["https://witanime.org", "https://witanime.tv"],
+      "keywords": ["witanime", "ويت انمي"]
+    },
+    "yacintv": {
+      "name": "YacineTV",
+      "baseUrl": "https://www.yacineapk.tv",
+      "fallbacks": ["https://yacine.tv"],
+      "keywords": ["yacine", "ياسين"]
+    },
+    "youtube": {
+      "name": "YouTube",
+      "baseUrl": "https://www.youtube.com",
+      "fallbacks": [],
+      "keywords": ["youtube"]
+    }
+  }
+}
